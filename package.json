@@ -1,0 +1,23 @@
+{
+  "name": "testtravis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.js --timeout=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranzhu123/testTravis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranzhu123/testTravis/issues"
+  },
+  "homepage": "https://github.com/ranzhu123/testTravis#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.0.1"
+  }
+}
